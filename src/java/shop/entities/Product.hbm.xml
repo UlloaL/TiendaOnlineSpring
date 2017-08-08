@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 04/08/2017 04:10:31 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="tiendaonlinespring" name="shop.entities.Product" optimistic-lock="version" table="product">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="shop.entities.Category" fetch="select" name="category">
+      <column name="categoryid" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="shop.entities.Partner" fetch="select" name="partner">
+      <column name="partnerid" not-null="true"/>
+    </many-to-one>
+    <property name="name" type="string">
+      <column length="100" name="name" not-null="true"/>
+    </property>
+    <property name="price" type="big_decimal">
+      <column name="price" not-null="true" precision="18"/>
+    </property>
+    <property name="quantity" type="int">
+      <column name="quantity" not-null="true"/>
+    </property>
+    <property name="description" type="string">
+      <column length="500" name="description" not-null="true"/>
+    </property>
+    <property name="photo" type="string">
+      <column length="100" name="photo" not-null="true"/>
+    </property>
+    <property name="feature" type="boolean">
+      <column name="feature" not-null="true"/>
+    </property>
+    <one-to-one class="shop.entities.Ordersdetail" name="ordersdetail"/>
+  </class>
+</hibernate-mapping>

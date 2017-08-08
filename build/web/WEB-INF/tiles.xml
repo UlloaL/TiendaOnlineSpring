@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+<definition name="home.index" template="/WEB-INF/jsp/templates/templateUser.jsp">
+<put-attribute name="content" value="/WEB-INF/jsp/home/index.jsp"></put-attribute>
+</definition>
+<definition name="about.index" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/about/index.jsp"></put-attribute>     
+</definition> 
+<definition name="contact.index" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/contact/index.jsp"></put-attribute>     
+</definition>
+<definition name="product.list" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/product/list.jsp"></put-attribute>     
+</definition> 
+<definition name="product.specials" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/product/specials.jsp"></put-attribute>     
+</definition> 
+<definition name="product.category" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/product/category.jsp"></put-attribute>     
+</definition> 
+<definition name="product.detail" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/product/detail.jsp"></put-attribute>     
+</definition> 
+<definition name="account.register" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/account/register.jsp"></put-attribute>     
+</definition> 
+<definition name="account.myaccount" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/account/myaccount.jsp"></put-attribute>     
+</definition> 
+<definition name="account.welcome" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/account/welcome.jsp"></put-attribute>     
+</definition>
+<definition name="cart.index" template="/WEB-INF/jsp/templates/templateUser.jsp">      
+    <put-attribute name="content" value="/WEB-INF/jsp/cart/index.jsp"></put-attribute>     
+</definition>
+
+</tiles-definitions>
