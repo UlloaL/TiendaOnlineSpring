@@ -27,7 +27,8 @@ public class HomeController {
       
         modelMap.put("title", "Home");
         modelMap.put("action", "home");
-        modelMap.put("productsLatest", productService.latest(9));
+       int count = productService.findAll().size();
+        modelMap.put("productsLatest", productService.latest(count));
         modelMap.put("featuredProducts", productService.featured(4));
         return "home.index";
     }

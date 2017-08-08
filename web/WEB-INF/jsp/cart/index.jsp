@@ -32,7 +32,7 @@
             <c:forEach var="item" items="${sessionScope.cart}" varStatus="i">
             <c:set var="s" value="${s + item.product.price * item.quantity}"></c:set>
             <tr>
-                <td><a href="${pageContext.request.contextPath}/cart/delete/${i.index}.htm"><img width="20" src="${pageContext.servletContext.contextPath }/assets/themes/images/b3.jpg" alt=""></a></td>
+                <td><a href="${pageContext.request.contextPath}/cart/delete/${i.index}.htm"><input type="submit" class="btn btn-primary" value="Eliminar"></a></td>
             <td><a href="${pageContext.request.contextPath}/product/detail/${item.product.id}.htm"> <img width="80" src="${pageContext.servletContext.contextPath }/assets/themes/images/products/${item.product.photo}" alt=""></a></td>
                 <td>${item.product.name}</td>
                 <td>${item.product.price}</td>

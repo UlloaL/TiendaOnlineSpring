@@ -22,4 +22,6 @@ public interface ProductDAO {
     
     public List<Product> specials();
     
+     public List<Product> findAll();
+    
 }

@@ -220,7 +220,7 @@
                                                              }/product/detail/${product.id}.htm"> <i class="icon-zoom-in"></i></a>
                                       <a class="btn" href="${pageContext.servletContext.contextPath }/cart/buy/${product.id}.htm">Add to <i class="icon-shopping-cart"></i></a>
                                       <a class="btn btn-primary" href="${pageContext.request.contextPath
-                                                             }/product/detail/${product.id}.htm">${product.price}</a></h4>
+                                                             }/product/detail/${product.id}.htm">s/. ${product.price}</a></h4>
 				</div>
 			  </div>
 			</li>

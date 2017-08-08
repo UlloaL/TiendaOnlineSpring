@@ -17,6 +17,8 @@ public interface ProductService {
     
      public Product find(Integer id);
      
+     public List<Product> findAll();
+     
      public List<Product> latest(int n);
      
      public List<Product> featured(int n);

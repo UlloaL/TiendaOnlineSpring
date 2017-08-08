@@ -57,6 +57,13 @@ public class ProductDAOImpl implements ProductDAO{
                 .setBoolean("feature", true)
                 .list();
     }
+
+    @Override
+    public List<Product> findAll() {
+        return sessionFactory.getCurrentSession()
+                .createQuery("from Product ")            
+                .list();
+    }
     
     
     
