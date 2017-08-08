@@ -228,9 +228,9 @@
                         </div>
                     </div>
                 </li>           
-                
+                </c:forEach>
             </ul>
-        </c:forEach>
+        
             <hr class="soft">
         </div>
     </div>

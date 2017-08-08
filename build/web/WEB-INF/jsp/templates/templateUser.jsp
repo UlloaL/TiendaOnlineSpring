@@ -13,7 +13,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Bootshop online</title>
+        <title>ShopNetworking online</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -85,7 +85,7 @@
                         
                         <ul id="topMenu" class="nav pull-right">
                             <li ${action eq 'home' ? 'class="selected"' : '' }><a href="${pageContext.request.contextPath }/home.htm"><span>Catalogo</span></a></li>
-                            <li ${action eq 'specials' ? 'class="selected"' : '' }><a href="${pageContext.request.contextPath }/product/specials.htm"><span>Ofertas</span></a></li>
+                          <!--  <li ${action eq 'specials' ? 'class="selected"' : '' }><a href="${pageContext.request.contextPath }/product/specials.htm"><span>Ofertas</span></a></li>-->
                             <li ${action eq 'about' ? 'class="selected"' : '' }><a href="${pageContext.request.contextPath }/about.htm"><span>Nosotros</span></a></li>
                             <li ${action eq 'register' ? 'class="selected"' : '' }><a href="${pageContext.request.contextPath }/account/register.htm"><span>Registro</span></a></li>
                          <!-- <li ${action eq 'myaccount' ? 'class="selected"' : '' }><a href="${pageContext.request.contextPath }/account/myaccount.htm"><span class="btn btn-large btn-success">Login</span></a></li>-->
@@ -315,9 +315,9 @@
                     </div>
                     <div id="socialMedia" class="span3 pull-right">
                         <h5>SOCIAL MEDIA </h5>
-                        <a href="#"><img width="60" height="60" src="${pageContext.servletContext.contextPath }/assets/themes/images/facebook.png" title="facebook" alt="facebook"/></a>
-                        <a href="#"><img width="60" height="60" src="${pageContext.servletContext.contextPath }/assets/themes/images/twitter.png" title="twitter" alt="twitter"/></a>
-                        <a href="#"><img width="60" height="60" src="${pageContext.servletContext.contextPath }/assets/themes/images/youtube.png" title="youtube" alt="youtube"/></a>
+                        <a href="https://www.facebook.com/"><img width="60" height="60" src="${pageContext.servletContext.contextPath }/assets/themes/images/facebook.png" title="facebook" alt="facebook"/></a>
+                        <a href="https://twitter.com/"><img width="60" height="60" src="${pageContext.servletContext.contextPath }/assets/themes/images/twitter.png" title="twitter" alt="twitter"/></a>
+                        <a href="https://www.youtube.com/"><img width="60" height="60" src="${pageContext.servletContext.contextPath }/assets/themes/images/youtube.png" title="youtube" alt="youtube"/></a>
                     </div> 
                 </div>
                 <p class="pull-right">&copy; Bootshop</p>

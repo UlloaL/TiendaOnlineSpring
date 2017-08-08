@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Ancelmo%20Ulloa/Documents/NetBeansProjects/TiendaOnlineSpring/web/WEB-INF/jsp/home/index.jsp</file>
             <file>file:/C:/Users/Ancelmo%20Ulloa/Documents/NetBeansProjects/TiendaOnlineSpring/web/WEB-INF/jsp/templates/templateUser.jsp</file>
-            <file>file:/C:/Users/Ancelmo%20Ulloa/Documents/NetBeansProjects/TiendaOnlineSpring/src/java/shop/controller/ProductController.java</file>
             <file>file:/C:/Users/Ancelmo%20Ulloa/Documents/NetBeansProjects/TiendaOnlineSpring/web/WEB-INF/jsp/product/list.jsp</file>
-            <file>file:/C:/Users/Ancelmo%20Ulloa/Documents/NetBeansProjects/TiendaOnlineSpring/web/WEB-INF/jsp/product/category.jsp</file>
+            <file>file:/C:/Users/Ancelmo%20Ulloa/Documents/NetBeansProjects/TiendaOnlineSpring/web/WEB-INF/jsp/product/specials.jsp</file>
             <file>file:/C:/Users/Ancelmo%20Ulloa/Documents/NetBeansProjects/TiendaOnlineSpring/src/java/shop/controller/HomeController.java</file>
         </group>
     </open-files>
