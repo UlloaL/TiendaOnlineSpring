@@ -222,7 +222,7 @@
                                       <a class="btn btn-primary" href="${pageContext.request.contextPath
                                                              }/product/detail/${product.id}.htm">s/. ${product.price}</a></h4>
 				</div>
-			  </div>
+			  </div> 
 			</li>
                         </c:forEach><!--
 			<li class="span3">
